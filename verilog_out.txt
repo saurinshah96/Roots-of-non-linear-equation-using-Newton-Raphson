@@ -1,0 +1,32 @@
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 876.938 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Newton_Raphson/Newton_Raphson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Newton_Raphson_TB_behav -key {Behavioral:sim_1:Functional:Newton_Raphson_TB} -tclbatch {Newton_Raphson_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source Newton_Raphson_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+x1 =  3f800000 , x2 = 40000000 , x3 = 40400000
+x1 =  3dd20d20 , x2 = 3fd20d22 , x3 = 40241a42
+x1 =  3fc2a3cb , x2 = 3fb49fe2 , x3 = 3e4b5b40
+x1 =  3ff87a56 , x2 = 3f4576c0 , x3 = 3f6507df
+x1 =  3f889f77 , x2 = 3f987844 , x3 = 3ef790d0
+x1 =  3fa2561f , x2 = 3f73aa9a , x3 = 3f615a23
+x1 =  3f758040 , x2 = 3f8454b8 , x3 = 3f77d726
+x1 =  3f803821 , x2 = 3f80024f , x3 = 3f7f4714
+x1 =  3f800010 , x2 = 3f80000e , x3 = 3f7ffff7
+x1 =  3f7ffffe , x2 = 3f800001 , x3 = 3f800001
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Newton_Raphson_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
